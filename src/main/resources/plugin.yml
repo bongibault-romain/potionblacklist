@@ -1,0 +1,9 @@
+name: PotionBlacklist
+version: ${project.version}
+main: lt.bongibau.potionblacklist.PotionBlacklistPlugin
+author: 82.111.109.49
+api-version: 1.19
+commands:
+  potion:
+    description: Disallow the usage of a potion for a players
+    usage: /potion blacklist <player> [type]
